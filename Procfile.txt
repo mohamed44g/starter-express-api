@@ -1,0 +1,3 @@
+web: node index.js
+
+buildTypes { debug { signingConfig signingConfigs.debug } release { crunchPngs false // or true lintOptions { checkReleaseBuilds false abortOnError false}
